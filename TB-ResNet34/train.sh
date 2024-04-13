@@ -1,0 +1,1 @@
+python trainBTResNetModel.py --train_list "file_list/VoxCeleb2/train_list_full.txt" --train_path "/Data/VoxCeleb2/dev/aac" --eval_list "file_list/VoxCeleb1/veri_test2.txt" --eval_path "/Data/VoxCeleb1/wav" --musan_path "/Data/musan_split" --rir_path "/RIRS_NOISES/simulated_rirs" --save_path "/TB-ResNet34/exps/statpool" --n_class 5994
